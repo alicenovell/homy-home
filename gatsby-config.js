@@ -9,9 +9,11 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     {
-      resolve: `gatsby-source-datocms`,
-      options: {
-        apiToken: process.env.DATO_API_TOKEN,
+    resolve: `gatsby-source-datocms`,
+    options: {
+      apiToken: `c35d58a44db84ab438c5d11e117826`,
+      preview: false,
+      disableLiveReload: false,
       },
     },
   ],
